@@ -8,7 +8,7 @@
 
 4. Continuamos con el header y ahora le asignaremos una imagen de fondo, la colocaremos en el centro y ajustaremos la imagen usando un background-size: cover;.
 
-5. Para finalizar con nuestro header, ajustaremos el texto que veremos en él mediante; display: flex; align-items: center; justify-content: center;.
+5. Para finalizar con nuestro header, ajustaremos el texto que veremos en él mediante: display: flex; align-items: center; justify-content: center;.
 
 6. Una vez hemos asignado estilos al header en general, procederemos a dar estilos al h1 de dicho header. Le daremos color, le indicaremos el tamaño de letra (50px) y lo ajustaremos usando padding: 0 25% 0 35%;.
 
