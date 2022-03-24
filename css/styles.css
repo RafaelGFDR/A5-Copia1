@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0%;
+}
+
+#header {
+    height: 100vh;
+    background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header h1 {
+    color: yellow;
+    font-size: 50px;
+    padding-left: 25%;
+    padding-right: 35%;
+}
+
+b {
+    background-color: rgba(0, 0, 0, 0.719)
+}
+
+#main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+#main h1 {
+    font-size: 40px;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#footer {
+    text-align: center;
+    color: grey;
+    background-color: black;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        font-size: 40px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #main {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #main p {
+        font-size: 15px;
+    }
+    #main h1 {
+        font-size: 25px;
+    }
+}
